@@ -19,6 +19,7 @@ public class LockExample : MonoBehaviour
         var bStream = BtnB.OnClickAsObservable().Select(_=>"B");
         var cStream = BtnC.OnClickAsObservable().Select(_=>"C");
 
+        //对三个按钮的事件流进行合并处理，并订阅同一事件
         Observable.Merge(aStream, bStream, cStream)
             .First()
             .Subscribe(_ =>
