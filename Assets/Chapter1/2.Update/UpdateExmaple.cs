@@ -5,14 +5,6 @@ using UniRx;
 
 public class UpdateExmaple : MonoBehaviour
 {
-    bool mButtonClicked = false;
-
-    enum ButtonState
-    {
-        None,
-        Clicked,
-    }
-    
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +15,7 @@ public class UpdateExmaple : MonoBehaviour
                 {
                     Debug.Log("左键点击");
                 }
-            });
+            }).AddTo(this);
 
         Observable.EveryUpdate()
             .Subscribe(_ =>
@@ -32,12 +24,6 @@ public class UpdateExmaple : MonoBehaviour
                 {
                     Debug.Log("右键点击");
                 }
-            });
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+            }).AddTo(this);
     }
 }

@@ -65,6 +65,13 @@
     <Compile Include="Assets\Chapter1\0.Intro\IntroExample.cs" />
     <Compile Include="Assets\Chapter1\1.Timer\TimerExample.cs" />
     <Compile Include="Assets\Chapter1\2.Update\UpdateExmaple.cs" />
+    <Compile Include="Assets\Chapter1\3.Where\WhereExample.cs" />
+    <Compile Include="Assets\Chapter1\4.First\FirstExample.cs" />
+    <Compile Include="Assets\Chapter1\5.UGUI\UGUIExample.cs" />
+    <Compile Include="Assets\Chapter1\6.ReactiveProperty\ReactivePropertyExample.cs" />
+    <Compile Include="Assets\Chapter1\7.MVP\MVPExample.cs" />
+    <Compile Include="Assets\Chapter1\8.Merge\MergeExample.cs" />
+    <Compile Include="Assets\Chapter1\9.PanelEventLock\LockExample.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>F:/UnirxLearning/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

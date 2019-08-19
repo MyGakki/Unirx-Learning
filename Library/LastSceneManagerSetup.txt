@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Chapter1/2.Update/UpdateExmaple.unity
+- path: Assets/Chapter1/9.PanelEventLock/LockExample.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
